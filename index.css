@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    color: white;
+}
+h1 {
+    
+    font-size: 45px;
+    color: white;
+}
+body {
+   
+    
+    background-image: url("images/unsplash_XC1Ccohy8P0.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: white;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+    padding-right: 20px;
+   
+    
+}
+.right {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+    padding-right: 20px;
+
+    
+    
+}
+.start {
+    background: rgb(255, 255, 255);
+    color: #0862A0;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+}
+.join {
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    
+}
+
+.big {
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.pic {
+    margin-top: 100px;
+    padding-left: 30px;
+    width: 600px;
+}
+.lorem {
+    margin-bottom: 80px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: white;
+
+}
+.start-two {
+    background: rgb(255, 255, 255);
+    color: #0862A0;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.code {
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+.join-two {
+    background: rgb(255, 255, 255);
+    color: #0862A0;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 83px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* media query */
+@media (max-width: 700px) {
+    .right {
+        flex-direction: column;
+    }
+    .middle-section {
+        flex-direction: column;
+    }
+    .pic {
+        width: 500px;
+        position: relative;
+    }
+}
+
